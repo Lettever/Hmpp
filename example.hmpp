@@ -2,13 +2,13 @@
 @h1 { Header }
 @a#about.foo bar baz(href=/about) { About }
 @Hello(John Doe, 10)
-@div(style="background-color=gray") {
+@div(style="background-color: gray") {
     This whole div
+    
     is gray @a(href="youtube.com") { Foo }
 }
 @pre {
     Foo
         Bar
 }
-
 This article was written by $Author
