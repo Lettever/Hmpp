@@ -1,6 +1,6 @@
 @Header
 @h1 { Header }
-@a#about.foo bar baz(href=/about) { About }
+@a#about-me.foo bar baz(href=/about) { About }
 @Hello(John Doe, 10)
 @div(style="background-color: gray") {
     This whole div
