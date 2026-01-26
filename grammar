@@ -21,5 +21,3 @@ attr ::= '#' id | '.' wssl | '(' wssl ')'
 body ::= '{' wssl? '}'
 id ::= string | [^ \t\n\r"'@#.]+
 string ::= ([^"\\]|.)*
-
-# Look into https://www.dabeaz.com/ply/ply.html and https://github.com/pyparsing/pyparsing/
